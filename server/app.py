@@ -10,10 +10,25 @@ from flask_cors import CORS
 
 from scam_detector import calculate_score, convert_audio_to_text
 from risk_engine import calculate_unified_risk
+from graph_engine import analyze_fraud_clusters
 
 
 app = Flask(__name__)
 CORS(app)  # Enable cross-origin requests for Vite frontend
+
+
+@app.route('/graph-data', methods=['GET'])
+@app.route('/api/graph-data', methods=['GET'])
+def get_graph_data_endpoint():
+    """
+    Returns NetworkX graph clusters, nodes, and edges for fraud ring visualization.
+    """
+    try:
+        data = analyze_fraud_clusters()
+        return jsonify(data), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 
 
 @app.route('/health', methods=['GET'])
