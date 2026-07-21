@@ -1,0 +1,152 @@
+[
+  {
+    "id": "SCAM-001",
+    "text": "This is Inspector Kumar from CBI Delhi Cyber Cell. You are under digital custody for illegal money laundering. Transfer your bank balance to court verification account immediately to avoid arrest warrant.",
+    "type": "call",
+    "category": "CBI / Law Enforcement Impersonation",
+    "ground_truth": "HIGH_RISK",
+    "expected_reasons": ["Authority impersonation", "Threat language", "Urgency pattern", "Financial solicitation / Escrow demand"],
+    "graph_score": 95,
+    "currency_score": 80
+  },
+  {
+    "id": "SCAM-002",
+    "text": "Urgent Notice: Your electricity power grid connection will be disconnected tonight at 9:30 PM due to unpaid electricity bill. Contact Electricity Officer Verma at 98765-54321 immediately to clear dues.",
+    "type": "sms",
+    "category": "Utility Disconnection Trap",
+    "ground_truth": "HIGH_RISK",
+    "expected_reasons": ["Threat language", "Urgency pattern", "Financial solicitation / Escrow demand"],
+    "graph_score": 88,
+    "currency_score": 75
+  },
+  {
+    "id": "SCAM-003",
+    "text": "Congratulations! Your mobile number has been selected to win a cash prize of Rs 25,00,000 from WhatsApp & KBC Lucky Draw. Contact Manager Sharma and pay clearance tax fee to release funds now.",
+    "type": "whatsapp",
+    "category": "Advance Fee / KBC Lottery",
+    "ground_truth": "HIGH_RISK",
+    "expected_reasons": ["Urgency pattern", "Financial solicitation / Escrow demand"],
+    "graph_score": 92,
+    "currency_score": 100
+  },
+  {
+    "id": "SCAM-004",
+    "text": "Dear SBI customer, your bank account 9821XXXX has been suspended due to pending KYC verification. Click link http://sbi-kyc-update.com or call bank officer immediately to unblock your account.",
+    "type": "sms",
+    "category": "Bank KYC Phishing",
+    "ground_truth": "HIGH_RISK",
+    "expected_reasons": ["Authority impersonation", "Threat language", "Urgency pattern", "Financial solicitation / Escrow demand"],
+    "graph_score": 85,
+    "currency_score": 90
+  },
+  {
+    "id": "SCAM-005",
+    "text": "Part-Time Job Opportunity: Earn Rs 5000 daily by liking YouTube videos and rating Google maps. Deposit Rs 1000 security fee to Telegram bot job_bot to start earning today.",
+    "type": "whatsapp",
+    "category": "Task Scam / Telegram Bot",
+    "ground_truth": "HIGH_RISK",
+    "expected_reasons": ["Urgency pattern", "Financial solicitation / Escrow demand"],
+    "graph_score": 78,
+    "currency_score": 85
+  },
+  {
+    "id": "SCAM-006",
+    "text": "Customs Department Alert: Your international parcel containing illegal narcotics and passport has been intercepted at Mumbai airport. CBI investigation initiated. Pay penalty fine immediately.",
+    "type": "call",
+    "category": "Customs / Narcotics Parcel Scam",
+    "ground_truth": "HIGH_RISK",
+    "expected_reasons": ["Authority impersonation", "Threat language", "Urgency pattern", "Financial solicitation / Escrow demand"],
+    "graph_score": 96,
+    "currency_score": 95
+  },
+  {
+    "id": "SCAM-007",
+    "text": "Your SIM card will be terminated within 2 hours by Telecom Regulatory Authority of India (TRAI) due to illegal spamming. Disconnect call and verify identity now.",
+    "type": "call",
+    "category": "TRAI / SIM Deactivation",
+    "ground_truth": "HIGH_RISK",
+    "expected_reasons": ["Authority impersonation", "Threat language", "Urgency pattern"],
+    "graph_score": 82,
+    "currency_score": 70
+  },
+  {
+    "id": "SCAM-008",
+    "text": "Income Tax Department Notice: Tax refund of Rs 14,250 approved for your PAN card. Submit bank account details and UPI PIN immediately at http://incometax-refund-portal.in to claim.",
+    "type": "sms",
+    "category": "Income Tax Refund Scam",
+    "ground_truth": "HIGH_RISK",
+    "expected_reasons": ["Authority impersonation", "Urgency pattern", "Financial solicitation / Escrow demand"],
+    "graph_score": 89,
+    "currency_score": 92
+  },
+  {
+    "id": "SAFE-001",
+    "text": "Hey Rahul, let's meet tomorrow at 4 PM near Connaught Place for coffee and discuss the project presentation.",
+    "type": "chat",
+    "category": "Personal Conversation",
+    "ground_truth": "SAFE",
+    "expected_reasons": [],
+    "graph_score": 5,
+    "currency_score": 0
+  },
+  {
+    "id": "SAFE-002",
+    "text": "Your OTP for logging into HDFC NetBanking is 482910. Valid for 10 minutes. Do not share this OTP with anyone, including bank officials.",
+    "type": "sms",
+    "category": "Official Bank Notification",
+    "ground_truth": "SAFE",
+    "expected_reasons": [],
+    "graph_score": 10,
+    "currency_score": 0
+  },
+  {
+    "id": "SAFE-003",
+    "text": "Your Amazon order #402-9812-1102 has been dispatched and will arrive by 7 PM today via BlueDart courier.",
+    "type": "sms",
+    "category": "E-Commerce Delivery Update",
+    "ground_truth": "SAFE",
+    "expected_reasons": [],
+    "graph_score": 2,
+    "currency_score": 0
+  },
+  {
+    "id": "SAFE-004",
+    "text": "Hi Mom, reaching home in 20 minutes. Please keep dinner warm. Love you!",
+    "type": "chat",
+    "category": "Personal Conversation",
+    "ground_truth": "SAFE",
+    "expected_reasons": [],
+    "graph_score": 0,
+    "currency_score": 0
+  },
+  {
+    "id": "SAFE-005",
+    "text": "Team meeting scheduled for Monday at 10 AM on Google Meet. Agenda: Q3 Product Roadmap review.",
+    "type": "email",
+    "category": "Work Communication",
+    "ground_truth": "SAFE",
+    "expected_reasons": [],
+    "graph_score": 5,
+    "currency_score": 0
+  },
+  {
+    "id": "SCAM-009",
+    "text": "Urgent Supreme Court Order: You have received a court summons for illegal financial activity. Disconnect all calls and pay security deposit to court escrow account now.",
+    "type": "call",
+    "category": "Supreme Court Summons Scam",
+    "ground_truth": "HIGH_RISK",
+    "expected_reasons": ["Authority impersonation", "Threat language", "Urgency pattern", "Financial solicitation / Escrow demand"],
+    "graph_score": 94,
+    "currency_score": 88
+  },
+  {
+    "id": "SCAM-010",
+    "text": "Dear user, your credit card reward points worth Rs 9,850 are expiring today. Redeem cash now into your bank account by sharing card number and CVV.",
+    "type": "sms",
+    "category": "Reward Points Expiry Fraud",
+    "ground_truth": "HIGH_RISK",
+    "expected_reasons": ["Urgency pattern", "Financial solicitation / Escrow demand"],
+    "graph_score": 86,
+    "currency_score": 90
+  }
+]

@@ -1,0 +1,16 @@
+id,type,category,ground_truth,text,graph_score,currency_score
+SCAM-001,call,CBI / Law Enforcement Impersonation,HIGH_RISK,"This is Inspector Kumar from CBI Delhi Cyber Cell. You are under digital custody for illegal money laundering. Transfer your bank balance to court verification account immediately to avoid arrest warrant.",95,80
+SCAM-002,sms,Utility Disconnection Trap,HIGH_RISK,"Urgent Notice: Your electricity power grid connection will be disconnected tonight at 9:30 PM due to unpaid electricity bill. Contact Electricity Officer Verma at 98765-54321 immediately to clear dues.",88,75
+SCAM-003,whatsapp,Advance Fee / KBC Lottery,HIGH_RISK,"Congratulations! Your mobile number has been selected to win a cash prize of Rs 25,00,000 from WhatsApp & KBC Lucky Draw. Contact Manager Sharma and pay clearance tax fee to release funds now.",92,100
+SCAM-004,sms,Bank KYC Phishing,HIGH_RISK,"Dear SBI customer, your bank account 9821XXXX has been suspended due to pending KYC verification. Click link http://sbi-kyc-update.com or call bank officer immediately to unblock your account.",85,90
+SCAM-005,whatsapp,Task Scam / Telegram Bot,HIGH_RISK,"Part-Time Job Opportunity: Earn Rs 5000 daily by liking YouTube videos and rating Google maps. Deposit Rs 1000 security fee to Telegram bot job_bot to start earning today.",78,85
+SCAM-006,call,Customs / Narcotics Parcel Scam,HIGH_RISK,"Customs Department Alert: Your international parcel containing illegal narcotics and passport has been intercepted at Mumbai airport. CBI investigation initiated. Pay penalty fine immediately.",96,95
+SCAM-007,call,TRAI / SIM Deactivation,HIGH_RISK,"Your SIM card will be terminated within 2 hours by Telecom Regulatory Authority of India (TRAI) due to illegal spamming. Disconnect call and verify identity now.",82,70
+SCAM-008,sms,Income Tax Refund Scam,HIGH_RISK,"Income Tax Department Notice: Tax refund of Rs 14,250 approved for your PAN card. Submit bank account details and UPI PIN immediately at http://incometax-refund-portal.in to claim.",89,92
+SAFE-001,chat,Personal Conversation,SAFE,"Hey Rahul, let's meet tomorrow at 4 PM near Connaught Place for coffee and discuss the project presentation.",5,0
+SAFE-002,sms,Official Bank Notification,SAFE,"Your OTP for logging into HDFC NetBanking is 482910. Valid for 10 minutes. Do not share this OTP with anyone, including bank officials.",10,0
+SAFE-003,sms,E-Commerce Delivery Update,SAFE,"Your Amazon order #402-9812-1102 has been dispatched and will arrive by 7 PM today via BlueDart courier.",2,0
+SAFE-004,chat,Personal Conversation,SAFE,"Hi Mom, reaching home in 20 minutes. Please keep dinner warm. Love you!",0,0
+SAFE-005,email,Work Communication,SAFE,"Team meeting scheduled for Monday at 10 AM on Google Meet. Agenda: Q3 Product Roadmap review.",5,0
+SCAM-009,call,Supreme Court Summons Scam,HIGH_RISK,"Urgent Supreme Court Order: You have received a court summons for illegal financial activity. Disconnect all calls and pay security deposit to court escrow account now.",94,88
+SCAM-010,sms,Reward Points Expiry Fraud,HIGH_RISK,"Dear user, your credit card reward points worth Rs 9,850 are expiring today. Redeem cash now into your bank account by sharing card number and CVV.",86,90
